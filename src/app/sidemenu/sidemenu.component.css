@@ -1,0 +1,27 @@
+span {
+    padding: 4px 8px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.para {
+    margin: 10px 5px;
+}
+
+.Co_span {
+    background: #aacd74;
+}
+
+.Po_span {
+    background: #146cd7;
+    color: #fff;
+}
+
+label{
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 5px;
+}
+p{
+    font-size: 16px;
+}

@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+.mainpage{
+    background-color: #ffffff;
+    height: 100vh;
+    padding: 30px;
+}
+.sidemenu{
+    border: 1px solid #c4b2b2;
+    border-radius: 5px;
+    padding: 5px;
+}
+.sidemenu .labelContent{
+    border-bottom: 1px solid #d7d7df;
+    padding: 5px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-container {
+    width: auto;
+  padding: 10px;
+  top:20px;
+    background: #ffffff;
+  }
+  .mat-drawer-side{
+    border: none;
+  }
+  button{
+    height: 45px;
+    padding: 11px;
+    margin-right: 30px !important;
+    border-radius: 10px !important;
+    font-size: 14px !important;
+    border: none;
+  }
+  b{
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .highcharts-legend-item{
+      display: none;
+  }
+  .highcharts-title{
+    font-size: 16px !important;
+  }
+  .highcharts-credits{
+    display: none;
+  }

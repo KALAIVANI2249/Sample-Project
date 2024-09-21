@@ -1,0 +1,50 @@
+{
+  "content": [
+    {
+      "label": "Course Code",
+      "paragraph": "BA3102"
+    },
+    {
+      "label": "Course Name",
+      "paragraph": "Quantitative techniques"
+    },
+    {
+      "label": "Course Type",
+      "paragraph": "Program Elective"
+    },
+    {
+      "label": "Course Period",
+      "paragraph": "Semester - 1"
+    },
+    {
+      "label": "Credits(4)",
+      "paragraphs": [
+        { "text": "Lecture - 3" },
+        { "text": "Tutorial - 0" },
+        { "text": "Practical - 1" },
+        { "text": "Project - 0" }
+      ]
+    },
+    {
+      "label": "Course Outcomes(COs)",
+      "paragraphs": [
+        { "text": "CO2" },
+        { "text": "CO4" },
+        { "text": "CO5" },
+        { "text": "CO7" },
+        { "text": "CO13" },
+        { "text": "CO14" }
+      ]
+    },
+    {
+      "label": "Mapped to this Course",
+      "paragraphs": [
+        { "text": "PO2" },
+        { "text": "PO4" },
+        { "text": "PO5" },
+        { "text": "PO7" },
+        { "text": "PO13" },
+        { "text": "PO14" }
+      ]
+    }
+  ]}

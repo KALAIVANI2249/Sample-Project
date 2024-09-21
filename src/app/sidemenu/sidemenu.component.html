@@ -1,0 +1,35 @@
+<div class="mainpage">
+    <div class="row m-0" style="height: 100vh;">
+        <div class="sidemenu col-md-3">
+            <div class="labelContent" *ngFor="let item of content">
+                <label>{{ item.label }}</label>
+                <p>{{ item.paragraph }}</p>
+
+                <div *ngIf="item.paragraphs && item.paragraphs.length > 0 && item.label == 'Credits(4)' ">
+                    <p *ngFor="let item of item.paragraphs">{{ item.text }}</p>
+                </div>
+                <div class="para row"
+                    *ngIf="item.paragraphs && item.paragraphs.length > 0 && item.label == 'Course Outcomes(COs)' ">
+                    <span class="Co_span col-md-3" *ngFor="let item of item.paragraphs">{{ item.text }}</span>
+                </div>
+                <div class="para row"
+                    *ngIf="item.paragraphs && item.paragraphs.length > 0 && item.label == 'Mapped to this Course' ">
+                    <span class="Po_span col-md-3" *ngFor="let item of item.paragraphs">{{ item.text }}</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div>
+                <button>Total Students <b>102</b></button>
+                <button>Course Average Mark  <b>85%</b></button>
+            </div>
+            <div>
+                <app-barchart></app-barchart>
+            </div>
+            <div>
+                <app-linechart></app-linechart>
+            </div>
+        </div>
+
+    </div>
+</div>
